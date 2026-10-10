@@ -1,0 +1,14 @@
+[run]
+source = .
+omit =
+    */migrations/*
+    tests/*
+    manage.py
+    config/wsgi.py
+    config/asgi.py
+    venv/*
+    .venv/*
+
+[report]
+# the task needs at least 50% coverage
+fail_under = 50
